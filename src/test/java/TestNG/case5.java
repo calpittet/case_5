@@ -27,7 +27,7 @@ public class case5 {
 
 	  
 	  FirefoxBinary firefoxBinary = new FirefoxBinary();
-	  //firefoxBinary.addCommandLineOptions("--headless");
+	  firefoxBinary.addCommandLineOptions("--headless");
 	  FirefoxOptions firefoxOptions = new FirefoxOptions();
 	  firefoxOptions.setBinary(firefoxBinary);
 	  FirefoxDriver driver = new FirefoxDriver(firefoxOptions);
